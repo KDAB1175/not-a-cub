@@ -8,7 +8,7 @@ the project consists of three parts:
 - software
 
 ### mechanical part
-all mechanical parts are 3D printable. while making this project, i have utilized Prusa i3 MK3 3D printer with filament type set to PLA and PETG (although you can use just one type of filament) and 0.15mm SPEED printing settings. furthermore, here is onShape link to export all necessary parts for the print. The parts you will need are:
+all mechanical parts are 3D printable. while making this project, i have utilized Prusa i3 MK3 3D printer with filament type set to PLA and PETG (although you can use just one type of filament) and 0.15mm SPEED printing settings. furthermore, here is onShape link to export all necessary parts for the print: https://cad.onshape.com/documents/0241e0a68a52b06a72d01161/w/a2f6d68f5b03f40f3b05c63f/e/2f8e02bca12e0e12c7c54226. The parts you will need are:
 - 4x servo_hm_extended
 - 4x servo_middle_mount
 - servo_mount_semi 2x original + 2x mirrored in slicer alongside y axis (please check against your model)
