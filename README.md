@@ -65,7 +65,8 @@ here is the promised list of pins and servos ;):
 // Rear-Right
 #define PIN_RRD 17
 #define PIN_RRM 05
-#define PIN_RRT 19```
+#define PIN_RRT 19
+```
 
 ### software part
 software will be included for download here.
