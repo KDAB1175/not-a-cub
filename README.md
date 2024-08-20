@@ -1,5 +1,5 @@
 # not-a-cub
-not-a-cub is a small open-source quadruped robot (that was supposed to look like a dog but looks more like a stegosaurus now), that you can 3D print and assemble at home while maintaining low cost (it is also highly customizable).
+not-a-cub or lizarde is a small open-source quadruped robot (that was supposed to look like a dog but looks more like a stegosaurus now, also walks like a lizard), that you can 3D print and assemble at home while maintaining low cost (it is also highly customizable).
 
 ## Installation
 The project consists of three parts:
