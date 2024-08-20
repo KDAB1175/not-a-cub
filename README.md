@@ -19,7 +19,7 @@ All mechanical parts are 3D printable. While making this project, i have utilize
 - 1x (+ depends on customizations) lidar_servo_mount
 - 1x (+ depends on customizations) lidar_senzor_mount
 
-You need to connect multiple parts with each other through servos, please consult next part on electronics to learn more about the servos. All servos will have the standard one-sided mount connected on them. servo_hm_extended will be connected through a servo to servo_middle_mount. servo_middle_mount will be connected through servo_mount_semi and servo_hm_tightened, which will in turn be connected through a servo to servo_mount_body. servo_mount_body will be connected to body_servo_mount which is finally connected to body. To connect lidar, first locate the front of the robot. the front is there, where body_servo_mount L shape has nothing in front of it. The layout of the robot should look like this: rear -- L___L -- front. On the front plate, lidar_servo_mount will be connected, servo will be installed and lidar_senzor_mount will be connected on the mount on the servo.
+You need to connect multiple parts with each other through servos, please consult next part on electronics to learn more about the servos. All servos will have the standard one-sided mount connected on them. servo_hm_extended will be connected through a servo to servo_middle_mount. servo_middle_mount will be connected through servo_mount_semi and servo_hm_tightened, which will in turn be connected through a servo to servo_mount_body. servo_mount_body will be connected to body_servo_mount which is finally connected to body. To connect lidar, first locate the front of the robot. the front is there, where body_servo_mount L shape has nothing in front of it. The layout of the robot should look like this: rear -- `L___L` -- front. On the front plate, lidar_servo_mount will be connected, servo will be installed and lidar_senzor_mount will be connected on the mount on the servo.
 
 ### Electronic part(s)
 Following list contains the electronics components needed:
@@ -31,17 +31,17 @@ Following list contains the electronics components needed:
 Following is a list of pins and servos corresponding to each. It is adapted from arduino C code which will be included in the repo. To be able to read it, here is a list of keys:
 
 1st character in the abbreviation
-- F = front
-- R = rear
+- `F` = front
+- `R` = rear
 
 2nd character in the abbreviation
-- L = left
-- R = right
+- `L` = left
+- `R` = right
 
 3rd character in the abbreviation
-- D = downer servo
-- M = middle servo
-- T = top servo
+- `D` = downer servo
+- `M` = middle servo
+- `T` = top servo
 
 Here is the list of pins and servos:
 
@@ -69,4 +69,4 @@ Here is the list of pins and servos:
 ```
 
 ### Software part(s)
-software is included for download here. Note that you will have to change constants named as "SERVO ABBREVIATION"_MIS, e.g. FLD_MIS. These constants express how off the servo is from its correct position. This way you can fine-tune the servos to be in the correct position. As an example let's take servo FLD. Let's say we put FLD as a part of calibration into `restLayingPositionAuto`. The leg part of the servo should now be parallel to the ground and perpendicular to the leg part the servo body is attached in. Aka. the FLD should be the lower part of capital L.
+software is included for download here. Note that you will have to change constants named as `"SERVO ABBREVIATION"_MIS`, e.g. FLD_MIS. These constants express how off the servo is from its correct position. This way you can fine-tune the servos to be in the correct position. As an example let's take servo FLD. Let's say we put FLD as a part of calibration into `restLayingPositionAuto`. The leg part of the servo should now be parallel to the ground and perpendicular to the leg part the servo body is attached in. Aka. the FLD should be the lower part of capital L.
